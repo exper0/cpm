@@ -1,0 +1,19 @@
+{
+  "expected_return_value" : 1,
+  "services" : [
+    {
+      "name" : "p1",
+      "start_command": "./p1.sh",
+      "expected_return_value": 1,
+      "stdout" : "p1.stdout",
+      "stderr" : "p1.stderr"
+    },
+    {
+      "name" : "p2",
+      "start_command": "./p2.sh",
+      "expected_std_out" : "XX!",
+      "stdout" : "p2.stdout",
+      "stderr" : "p2.stderr"
+    }
+  ]
+}
